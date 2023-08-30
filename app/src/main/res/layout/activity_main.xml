@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <ImageView
+       android:layout_gravity="center"
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/login">
+
+   </ImageView>
+
+   <EditText
+       android:id="@+id/etUsuario"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Usuario"
+       android:inputType="text"
+       ></EditText>
+
+   <EditText
+       android:id="@+id/etPasword"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Contraseña"
+       android:inputType="textPassword"
+
+       ></EditText>
+
+   <Button
+       android:id="@+id/btnIniciar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Iniciar"
+       android:layout_gravity="center"
+
+
+       ></Button>
+
+   <TextView
+       android:id="@+id/lvlRegistrar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Registrar"
+       android:layout_gravity="center"
+       android:textSize="25sp"></TextView>
+
+</LinearLayout>
